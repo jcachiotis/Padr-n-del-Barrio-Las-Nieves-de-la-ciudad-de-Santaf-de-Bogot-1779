@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">    
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt> 
+                <title> Padrón del barrio Las Nieves - Santafé de Bogotá</title> 
+                <editor> Jorge Enrique Cachiotis Salazar</editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition></edition> 
+            </editionStmt> 
+            <publicationStmt> 
+                <publisher> Universidad Internacional de la Rioja UNIR</publisher> 
+                <date when="2020"> 2022</date> 
+                <availability status="free"> 
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.es"> Publicado bajo una licencia Creative Commons Atribución-NoComercial 3.0</licence> 
+                </availability> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <msDesc> 
+                    <msIdentifier> 
+                        <repository> Archivo General de la Nación de Colombia</repository> 
+                        <idno> Milicias y Marina Tomo 141</idno> 
+                        <msName> Manuscrito</msName> 
+                    </msIdentifier> 
+                </msDesc> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <creation><date when="1870"> 1870 Aprox.</date></creation> 
+            <langUsage><language ident="es"> Español</language></langUsage> 
+        </profileDesc> 
+    </teiHeader> 
+        <text> 
+            <body>
+                <head> Padrón del barrio Las Nieves -Santafé de Bogotá 1870- </head>
+                <p>"Folio 151 recto"</p>  
+                    <p><name type="calle"> Calle
+                            <choice> 
+                                <orig> 1a</orig> 
+                                <reg> primera</reg></choice> de las Nieves</name></p> 
+                    <p><name type ="local"> Casa del estanco</name></p> 
+                    <p><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> núm[ero]</expan></choice> 26.</name><name type="nombre"> 
+                            <choice> 
+                                 <orig> Maria Gonzales</orig> 
+                                 <reg> María González</reg></choice></name> : familia 4. Dos varones.</p> 
+                    <p><name type="local"> Tienda
+                            <choice> 
+                                 <abbr> num.</abbr> 
+                                 <expan> núm[ero]</expan></choice> 27.</name><name type="nombre"> 
+                             <choice> 
+                                  <orig> Maria</orig> 
+                                  <reg> María</reg></choice> Bonilla</name>: familia 2. Un 
+                            <choice> 
+                                  <orig> varon</orig> 
+                                  <reg> varón</reg></choice>.  26</p> 
+                    <p>
+                            <choice> 
+                                  <abbr> Ps.</abbr> 
+                                  <expan> p[eso]s</expan></choice> de trabajo anual en 
+                            <choice> 
+                                  <orig> tavacos</orig> 
+                                  <reg> tabacos</reg></choice>. <name type="local"> Tienda
+                            <choice> 
+                                  <abbr> num.</abbr> 
+                                  <expan> núm[ero]</expan></choice> 28.</name></p> 
+                    <p><name type="nombre"> 
+                            <choice> 
+                                 <abbr> Encarnac.n</abbr> 
+                                 <expan> Encarnac[ió]n</expan></choice> Santana</name> : familia 2. Varones y una hembra.<name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  29.</name></p> 
+                    <p><name type="nombre"> 
+                            <choice> 
+                                <orig> Barbara</orig> 
+                                <reg> Bárbara</reg></choice> Castillo</name> : familia 3. Un 
+                            <choice> 
+                                <orig> varon</orig> 
+                                <reg> varón</reg></choice>.  Trabajo anual</p> 
+                    <p> 18   <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice> en 
+                            <choice> 
+                                <orig> tavacos</orig> 
+                                <reg> tabacos</reg></choice>. <name type="local">  Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  30. </name><name type="nombre"> 
+                             <choice> 
+                                 <orig> Maria Holarte</orig> 
+                                 <reg> María Olarte</reg></choice></name> : fa-</p> 
+                    <p> milia 4. 
+                            <choice> 
+                                <orig>  Embras</orig> 
+                                <reg>  Hembras</reg></choice>. <name type="local">  Tienda
+                            <choice> 
+                                <orig> num 1. </orig> 
+                                <reg>  número 1. </reg></choice></name><name type="nombre">  Dolores Penagos</name> : fami-</p> 
+                    <p> lia 3. Un
+                            <choice> 
+                                <orig> varon.</orig> 
+                                <reg> varón.</reg></choice><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice> 2.</name><name type="oficio"> Barbería</name> :<name type="nombre"> 
+                            <choice> 
+                                <orig> Jose</orig> 
+                                <reg> José</reg></choice> Guartos</name> ,</p> 
+                    <p> con un criado. Producto anual de su trabajo 36 
+                            <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice><name type="local"> Tienda-</name></p> 
+                    <p>      <choice> 
+                                <abbr> num.</abbr> 
+                        <expan> número</expan></choice>  3.<name type="oficio"> 
+                            <choice> 
+                                <orig> Mieleria</orig> 
+                                <reg> Mielería</reg></choice></name> :<name type="nombre"> Juan
+                             <choice> 
+                                <orig> martines</orig> 
+                                <reg> Martínez.</reg></choice></name>  Producto anual 48 
+                             <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice></p> 
+                    <p><name type="local"> Tienda 
+                            <choice> 
+                                 <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  4.</name><name type="nombre"> Calixto 
+                            <choice> 
+                                 <orig> Sapata</orig> 
+                                 <reg> Zapata</reg></choice></name> : producto anual 30 
+                            <choice> 
+                                 <abbr> Ps.</abbr> 
+                                 <expan> p[eso]s</expan></choice><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  5.</name></p> 
+                    <p><name type="nombre"> Vicente Pulido</name> : producto anual 35 
+                            <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  6.</name></p> 
+                    <p><name type="nombre"> 
+                            <choice> 
+                                <orig> Jose lasqueros</orig> 
+                                <reg> José Lasqueros</reg></choice></name> :<name type="oficio"> Sastre</name>. <name type="local"> 
+                                    Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  7.</name><name type="nombre"> Custodia Osorio</name>  :></p> 
+                    <p> Producto anual 44
+                            <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice><name type="local"> Tienda 
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  8.</name><name type="nombre"> 
+                            <choice> 
+                                <orig> Valentin</orig> 
+                                <reg> Valentín</reg></choice> Molano</name> :</p> 
+                    <p> familia 3. Un 
+                            <choice> 
+                                <orig> varon</orig> 
+                                <reg> varón</reg></choice>  Producto anual 26 
+                            <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice><name type="local"> Tienda 
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  [roto]</name></p> 
+                    <p><name type="nombre"> Bárbara
+                            <choice> 
+                                <orig> Gutierres</orig> 
+                                <reg> Gutierrez</reg></choice></name> : Familia 4. Un 
+                            <choice> 
+                                <orig> varon</orig> 
+                                <reg> varón</reg></choice>.  Producto anual</p> 
+                    <p> 26   <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice><name type="local"> Cuartel de húsares</name> número 12.<name type="local"> Tienda.
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  13.</name></p> 
+                    <p><name type="nombre"> Manuela 
+                            <choice> 
+                                <orig> daza</orig> 
+                                <reg> Daza</reg></choice></name> :<name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  14.</name> de la misma. Producto anual 28
+                            <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice></p> 
+                    
+                    <p>"Folio 151 verso"</p>
+
+                    <p><name type="local"> Tienda  
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  15.</name><name type="nombre"> Josefa Tamargo</name>. <name type="local"> Tienda 
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  16 cerrada.</name></p> 
+                    <p><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  17.</name><name type="nombre"> Josefa Torres</name> : familia. Dos hijas.<name type="local"> Tienda</name> 
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  18.</p> 
+                <p><name type="nombre"> Antonio Acosta</name> : Familia 6. Dos varones. <name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  19</name></p> 
+                    <p> cerrada. <name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  20.</name><name type="nombre"> 
+                            <choice> 
+                                 <abbr> Fran.co Gonzales</abbr> 
+                                 <expan> Francisco Gonzáles</expan></choice></name> : familia 4. Va-</p> 
+                    <p> rones. <name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  21.</name><name type="nombre">  Manuel Lamprea</name> : familia. Dos hijas.</p> 
+                    <p><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice> 22 cerrada.</name><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  23.</name><name type="nombre"> Manuel Reyes</name></p> 
+                <p> y su mujer. <name type="oficio"> Sastre</name>.  Producto anual 34 
+                            <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice>. <name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>. </name></p> 
+                
+                <p>          <name type="dirección"> 
+                            <choice> 
+                                <abbr> Manz.a 2.a</abbr> 
+                                <expan> Manzana segunda</expan></choice></name>  </p> 
+                
+                    <p><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  39 cerrada.</name><name type="local"> Tienda</name> 
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  38. <name type="nombre"> Gertrudis 
+                            <choice> 
+                                <abbr> Dias</abbr> 
+                                <expan> Días</expan></choice></name> :</p> 
+                    <p> familia. Dos hijas. <name type="local"> Tienda 
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  37.</name><name type="nombre"> 
+                            <choice> 
+                                <abbr> Encarnac.n Asero</abbr> 
+                                <expan> Encarnación Asero</expan></choice></name> : fa-</p> 
+                     <p> milia 3. Un
+                            <choice> 
+                                <orig> varon.</orig> 
+                                <reg> varón.</reg></choice><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  36 cerrada.</name><name type="local"> Tienda</name></p> 
+                <p> número 35.<name type ="local"> Casa don Mariano Espinosa</name> : familia 12.</p> 
+                    <p> Tres varones, cuatro esclavas. <name type ="local"> Casa</name>
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice> 34 cerrada. <name type="local"> Tienda</name></p> 
+                    <p>      <choice> 
+                                <abbr> num.</abbr> 
+                        <expan> número</expan></choice>  33.<name type ="nombre"> Gertrudis Delgado.</name><name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  32.</name> Juan Cruz:</p> 
+                <p> familia 4. Un 
+                            <choice> 
+                                <orig> varon</orig> 
+                                <reg> varón</reg></choice>.  30 
+                            <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice> de producto anual.<name type="local"> Tienda
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice> 31.</name> Luz</p> 
+                    <p> Cuervo.
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> Número</expan></choice>  30 cerrada. 
+                            <choice> 
+                                <abbr> num.</abbr> 
+                                <expan> número</expan></choice>  29.<name type ="local"> Casa Manuel Samper</name> :</p> 
+                <p><name type="oficio"> comerciante</name>.  Familia 6.
+                            <choice> 
+                                <orig> 3</orig> 
+                                <reg> Tres</reg></choice> varones, <name type ="oficio">criados</name> seis, un 
+                            <choice> 
+                                <orig> varon</orig> 
+                                <reg> varón</reg></choice>. </p> 
+                <p><name type="calle"> Calle de San Pedro Alcántara</name></p> 
+                    <p>      <choice> 
+                                <abbr> num.</abbr>
+                        <expan> número</expan></choice>  28.
+                            <choice> 
+                                <orig> Mig.1 Ramires</orig> 
+                                <reg> Miguel Ramírez:</reg>                             
+                            </choice>  
+                            <choice> 
+                                <orig> Mieleria</orig> 
+                                <reg> Mielería</reg></choice>.  30 
+                                <choice> 
+                                <abbr> Ps.</abbr> 
+                                <expan> p[eso]s</expan></choice>  de producto</p> 
+                <p> anual.<choice> 
+                    <abbr> Num.</abbr> 
+                    <expan> Número</expan></choice> 27 cerrada.
+                    <choice> 
+                        <abbr> num.</abbr> 
+                        <expan> Número</expan></choice> 26.<name type ="nombre"> Vicente
+                    <choice> 
+                        <orig> clavijo</orig> 
+                        <reg> Clavijo</reg></choice></name> :</p> 
+                 
+                    <p>"Folio 152 recto"</p> 
+                
+                
+                    <p><name type="local"> 
+                            <choice> 
+                        <orig> Mieleria</orig> 
+                        <reg> Mielería</reg></choice></name>  Producto anual 38
+                            <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice> 
+                            <choice> 
+                                <abbr> num.</abbr><expan> Núm[ero]</expan></choice> 25 y 24.<name type ="nombre"><choice><orig> Fran.co Leaño</orig><reg> Francisco Leaño</reg></choice></name> :</p> 
+                    <p> familia 6.
+                            <choice><orig> 2</orig><reg> Dos</reg></choice> varones.
+                            <choice><abbr> Num.</abbr><expan> Número</expan></choice> 23 cerrada.
+                        <choice><abbr> Num.</abbr><expan> Número</expan></choice> 22 cerrada.</p> 
+                    
+                <p>          <choice><abbr> Manz.a 7.a</abbr><reg> Manzana séptima</reg></choice></p> 
+                    
+                <p><name type ="local">Casa Eusebio Otaola </name>:
+                            <choice><orig> Acendado</orig><reg> Hacendado</reg></choice>.  Familia 6.<choice><orig> 2</orig><reg> Dos</reg></choice> varones.</p> 
+                <p>          <choice><orig> num.</orig><reg><choice><abbr> num.</abbr><expan> Número</expan></choice></reg></choice>  21.<name type ="nombre"> Antonio Rocha</name> :<name type="local"></name> 
+                            <choice><orig> Mieleria</orig><reg> Mielería</reg></choice>.  Producto anual 40
+                            <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. </p> 
+                <p>          <choice><orig> num.</orig><reg><choice><abbr> num.</abbr><expan> Número</expan></choice></reg></choice> 20.
+                    <name type ="nombre"><choice><orig> Ermeregilda</orig><reg> Hermenegilda </reg></choice> Parra</name> : producto anual 37
+                            <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice> 
+                            <choice><orig> num.</orig><reg><choice><abbr> num.</abbr><expan> Número</expan></choice></reg></choice> 19.</p> 
+                <p><name type ="nombre"> Melchora Casasbuenas</name> : familia 2. Un 
+                            <choice> 
+                             <orig> varon</orig> 
+                             <reg> varón</reg></choice>. Producto anual</p> 
+                <p> 38       <choice><abbr> ps.</abbr><expan> p[eso]s</expan></choice> 
+                            <choice><orig> num.</orig><reg><choice><abbr> num.</abbr><expan> Número</expan></choice></reg></choice> 18.<name type ="nombre"> Luz Neira</name> : familia 2. Un 
+                            <choice> 
+                            <orig> varon</orig> 
+                                <reg> varón</reg></choice>. 
+                            <choice><orig> num.</orig><reg><choice><abbr> num.</abbr><expan> Número</expan></choice></reg></choice> 17.</p> 
+                <p><name type ="nombre"> Melchora Casasbuenas</name>. 
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice> 16 cerrada.
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice> 15.
+                    <name type ="local"> Casa</name></p> 
+                <p><name type ="local"> Carmen Versal[sic]:</name>  familia 5. Un 
+                             <choice> 
+                                 <orig> varon</orig> 
+                                 <reg> varón</reg></choice>. 
+                             <choice><abbr> num.</abbr><expan> Número</expan></choice> 14 cerrada.</p> 
+                <p>           <choice><abbr> num.</abbr><expan> Número</expan></choice> 13.
+                    <name type ="local"> Casa Juan Londoño</name>: <name type="oficio">hacendado</name>.
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice>  12.<name type ="local"> Casa</name></p> 
+                <p><name type ="nombre"><choice><orig> Ygnacio Reaño</orig><reg> Ignacio Riaño</reg></choice></name> : familia 3.
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice> 11.<name type ="local"> Casa</name> 
+                    <name type="local"><choice><orig> Ygnacio</orig><reg> Ignacio</reg></choice> Leaño</name>. 
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 10. <name type ="local"> Casa</name></p> 
+                <p>          <name><choice><orig> Ygnacio Umaña</orig><reg> Ignacio Umaña</reg></choice></name> :
+                            <name type="oficio"><choice><orig> asendado</orig><reg> hacendado</reg></choice></name>.  Familia 8. Un 
+                            <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice></p> 
+                <p>          <choice><abbr> num.</abbr><expan> Número</expan></choice> 9 cerrada.
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice> 8.<name type ="nombre"> Rosa Pinzón</name> :<name type ="oficio"> amasandera</name>.  Pro-</p> 
+                <p> ducto anual 50<abbr> ps.</abbr><expan> p[eso]s</expan>.  Familia y
+                            <choice><orig> guespedes</orig><reg> huéspedes</reg></choice> : 21. Varones: 6.
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 7.<name type ="nombre"> Antonia Casal</name> : familia 2. Hijos varones.
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice> 6.</p> 
+                <p><name type ="nombre"> Juan Cruz</name>. 
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice> 5 y 4 casa cerrada.
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice> 3.<name type ="local"> Casa</name></p> 
+                <p><name type="local"> Antonio Navarro</name> : familia 8. Varones: 2.<choice><abbr> num.</abbr><expan> Número</expan></choice> 2 de la mis-</p> 
+                <p> ma casa.
+                            <choice><abbr> num.</abbr><expan> Número</expan></choice>  1.
+                            <name type ="local"> Casa</name><name> Josefa Rodríguez</name> : familia 6. Dos va-</p> 
+                    <p> rones.</p> 
+                    
+                <p>"Folio 152 verso"</p>   
+
+                <p><choice><abbr> Manz.a 29</abbr><expan> Manzana vigésima novena</expan></choice></p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 1.<name type ="nombre"> Dominga Galeano</name>: familia 7. Varones: 3. Producto anu-</p> 
+                <p>al 43<choice><abbr> ps.</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 2. <name type ="local"> Casa de la misma</name><choice><orig> incluyendose</orig><reg> incluyéndose</reg></choice> en una</p> 
+                <p> sala.<name type ="nombre"><choice><orig> Ynes</orig><reg> Inés</reg></choice> Gallo</name>: familia 2. Varones. <choice><abbr> num.</abbr><expan> Número</expan></choice> 3.<name type ="nombre"> Manuel Ran-</name></p> 
+                <p><name> gel</name>:<name type="oficio"> tratante</name>.<choice><orig>familia</orig><reg>Familia</reg></choice> 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 4.<name type="local"> Casa José</name></p> 
+                <p><name> Buitrago</name> : familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  5.<name type ="local"> Casa Manuel Orejuela</name>:<name type ="oficio"> pla-</name></p> 
+                <p><name> tero</name>.  Producto anual 90 <choice><abbr> Ps.</abbr> 
+                    <expan> p[eso]s</expan></choice> Familia 10.<choice><abbr> num.</abbr><expan> Número</expan></choice> 6.<name> María Mon-</name></p> 
+                <p><name> tenegro</name>: familia 10. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  7.<name> Vicente Aguirre</name> : fa-</p> 
+                    <p> milia 2.</p> 
+                
+                <p><name type ="calle"> Calle de<choice><abbr>Sta</abbr><expan>Santa</expan></choice> Ana</name></p> 
+
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 8.<name type ="local"> Casa<choice><orig> Ermeregilda</orig><reg> Hermenegilda</reg></choice> Parra</name>: familia 4.<choice><abbr> num.</abbr><expan> Número</expan></choice>  9.</p> 
+                <p><name> Manuel Salazar</name>: familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  10 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  11.</p> 
+                <p><name type ="local"> Casa Nicolás Parada</name> :<name type ="oficio"> tratante</name>.  Familia 4. <choice><abbr> num.</abbr><expan> Número</expan></choice>  12.<name type="nombre"> Ma-</name></p> 
+                <p><name type="nombre"> nuela <choice><orig>Garcia</orig><reg>García</reg></choice></name>: familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 13 de la misma.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 14.<name type ="local"> Casa Anselma Melo</name>: una hija. <choice><abbr> num.</abbr><expan> Número</expan></choice> 15.<name type="nombre"> Juana</name></p> 
+                <p><name><choice><orig> Alva</orig><reg> Alba</reg></choice></name>: una hija. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16.<name type ="local"> Casa Pedro Figueroa</name>:<name type ="oficio"> pintor</name>.<choice><orig>discipulos</orig><reg> Discí-</reg></choice></p> 
+                <p> pulos: 4. <choice><abbr> num.</abbr><expan> Número</expan></choice> 17 del mismo dueño. <choice><abbr> num.</abbr><expan> Número</expan></choice> 18.<name type="nombre"> Antonia Cam-</name></p> 
+                    <p><name type="nombre"> pos</name>: familia 5. Dos varones. <choice><abbr> num.</abbr><expan> Número</expan></choice>  19 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 20 cerrada.</p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  21.<name type ="nombre"> María León</name> : familia dos hijos.<choice><abbr> num.</abbr><expan> Número</expan></choice> 22. <name type ="local"> Casa</name></p> 
+                <p><name type ="local"> Magdalena Ruiz</name> : familia 4. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23.<name type ="local"> Casa<choice><orig>Ygnacio</orig><reg>Ignacio</reg></choice> Acu-</name></p> 
+                <p><name> ña</name>:<name type ="oficio"> sastre</name>. Familia 5. Dos varones. <choice><abbr> num.</abbr><expan> Número</expan></choice> 24.<name type ="nombre"><choice><orig> Luiza</orig><reg> Luisa</reg></choice> Penagos.</name></p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  25 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 26.<name type ="local"> Casa Pedro Cepeda</name>:</p> 
+                   
+                <p>"Folio 153 recto"</p>   
+                   
+                <p> familia 7. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 28.<name type ="local"> Casa Manuel Maldonado</name>:</p> 
+                    <p> familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  29 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 30 y 31 cerradas.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 32.<name type ="local"> Casa <choice><orig> Ygnacio</orig><reg> Ignacio</reg></choice> Navarrete </name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 33 y 34.<name type ="nombre"> Nepomuceno <choice><orig> delgado</orig><reg> Delgado</reg></choice></name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 35.<name type="nombre"> Domingo Clavijo</name>: familia 7. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice> :<name type ="oficio"> Tratante</name>. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  36 del mismo. <choice><abbr> num.</abbr><expan> Número</expan></choice> 37.<name type ="nombre"><choice><orig> Maria</orig><reg> María</reg></choice> Torres</name>: un hijo.<choice><abbr> num.</abbr><expan> Número</expan></choice> ></p> 
+                    <p> 38 casa cerrada.</p> 
+                <p><choice><orig> Manza</orig><reg> Manzana</reg></choice> y <name type ="calle"> calle de<choice><orig> Sn Emidio</orig><reg> San Emigdio</reg></choice></name></p> 
+
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1.<name type ="nombre"> Antonio <choice><orig>Suarez</orig><reg>Suárez</reg></choice></name>: familia 5. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  2. <name type ="local"> Casa</name></p> 
+                <p><name type ="nombre"><choice><orig> Jose Rodrigues</orig><reg> José Rodríguez</reg></choice></name>: familia 8. 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>  1:<name type ="oficio"> carpintero.</name><choice><abbr> num.</abbr><expan> Número</expan></choice>  3.<name type ="local"> Casa</name></p> 
+                <p><name type ="local"> Feliciana<choice><orig> Sanches</orig><reg> Sánchez</reg></choice></name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 4 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 5</p> 
+                <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 6. <name type ="nombre">Gregorio Clavijo</name>: familia 1. <choice><abbr> num.</abbr><expan> Número</expan></choice> 7.<name type="local"> Casa</name></p> 
+                <p><name type ="local"> Melchor Reyes</name>: familia 6. <choice><abbr> num.</abbr><expan> Número</expan></choice> 8.<name type ="local"> Casa Eusebio<choice><orig> Gaytan</orig><reg> Gaitán</reg></choice></name>:</p> 
+                <p> familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 9. <name type ="local"> Casa <choice><orig>Maria Garcia</orig><reg>María García</reg></choice></name>: familia</p> 
+                <p> 4. Un <choice> 
+                            <orig> varon</orig> 
+                    <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 10. <name type ="local"> Casa <choice><orig> Maria</orig><reg> María</reg></choice> Gamba</name>: familia 2. Un</p> 
+                <p>      <choice> 
+                            <orig> varon</orig> 
+                    <reg> varón</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  11. <name type ="local"> Casa Juana Parra</name>: familia 4. Varones: 2.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  12 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  13. <name type="nombre">María <choice><orig>Renteria</orig><reg>Rentería</reg></choice></name>: familia 4. Un</p> 
+                    <p>  <choice> 
+                            <orig> varon</orig> 
+                        <reg> varón</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 14. <name type ="local"> Casa José Torres</name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 15. <name type="nombre">Dimas Parra</name>: familia 6. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice> 16</p> 
+                <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 17. <name type="nombre"> Petronila Alcaya</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 18</p> 
+                <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 19. <name type ="local"> Casa<choice><orig> Ysabel</orig><reg> Isabel</reg></choice> Lozano</name>: familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                    
+                <p>"Folio 153 verso"</p> 
+                    
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  20 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  21. <name type ="local"> Casa <choice><orig>Jose Obregn</orig><reg>José Obregón</reg></choice></name>: familia 5. Varo-</p> 
+                <p> nes: 3. Producto anual 80 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 27. <name type ="local"> Casa Antonia Andrade</name>:</p> 
+                <p> familia 6. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  28. <name type ="local"> Casa<choice><orig>Maria Barboza</orig><reg>María Barbosa</reg></choice></name>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 29. <name type ="local"> Casa <choice><abbr>Franco Peres</abbr><reg>Francisco Pérez</reg></choice></name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  30 del mismo. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                    <p> 31. José Leal: familia 2 varones. <choice><abbr> num.</abbr><expan> Número</expan></choice>  32 del mismo. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 33. <name type ="local"> Casa <choice><abbr> Franco</abbr><expan> Francisco</expan></choice> Quintero</name>: familia 5. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice> : <name type ="oficio"><choice><orig>sapatero</orig><reg>zapatero</reg></choice></name>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  34 del mismo. <choice><abbr> num.</abbr><expan> Número</expan></choice>  35. <name type="nombre">Manuel<choice><orig>Meza</orig><reg>Mesa</reg></choice></name>: familia</p> 
+                <p> una <choice><orig> embra</orig><reg> hembra</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  36 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 37. <name type ="local"> Casa Manuel <choice><orig> Pinzon</orig><reg> Pinzón</reg></choice></name>:</p> 
+                <p> <name type ="oficio">sombrerero</name>. Familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  38.<name type="nombre"><choice><orig> Ygnacio</orig><reg> Ignacio</reg></choice></name> Samudio: familia 3.</p> 
+                <p> Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  39 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  40 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  41. <name type="nombre">Con-</name></p> 
+                <p> <name type="nombre"><choice><orig>cepcion Gonzales</orig><reg>cepción González</reg></choice></name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 43 y 44. <name><choice><abbr> Franco Barboza</abbr><expan> Francisco Barbosa</expan></choice></name>:</p> 
+                <p> <name type ="oficio"><choice><orig>sapatero</orig><reg>zapatero</reg></choice></name>. Familia 7. Varones: 4. <choice><abbr> num.</abbr><expan> Número</expan></choice>  45.<name type ="nombre"><choice><abbr>Franca Ruis</abbr><reg>Francisca Ruiz</reg></choice></name>: fa-</p> 
+                <p> milia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  46. <name type ="local"> Casa<choice><abbr> Franco</abbr><expan> Francisco</expan></choice> Luna</name>: familia 6.</p> 
+                <p> Un   <choice> 
+                            <orig> varon</orig> 
+                    <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  47. <name type ="nombre"> Natividad <choice><orig>Rodrigs</orig><reg>Rodríguez</reg></choice></name>: familia 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  48.</p> 
+                <p> <name type ="nombre">Antonia Camarada</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  49. <name type ="local"> Casa <choice><orig> Maria</orig><reg> María</reg></choice> Sal-</name></p> 
+                <p> <name>cedo</name>: familia 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  50. <name type ="local"> Casa <choice><abbr>Dn</abbr><reg>don</reg></choice>Vicente Cornejo</name>: <name type="oficio">subteniente</name></p> 
+                <p> <name type ="oficio"> del <choice><orig> auciliar</orig><reg> auxiliar</reg></choice> sin sueldo</name>. Familia: su esposa. <choice><abbr> num.</abbr><expan> Número</expan></choice>  51 y 52. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local"><choice><orig> Ygnacia</orig><reg> Ignacia</reg></choice>Luque</name>: <name type ="oficio"> panadera</name>. Familia 5.
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>: 1. Producto anual</p> 
+                <p> 49 <choice><orig>ps</orig><reg>p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 53. Bernarda Carrillo: familia 5. <choice><abbr> num.</abbr><expan> Número</expan></choice> 54.</p> 
+                <p> <name type ="nombre"> Pedro Silva</name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice> 55. <name type ="local"> Casa <choice><orig>Maria</orig><reg>María</reg></choice></name></p> 
+                <p> <name type = "local"> Fajardo</name>: familia 5. <choice><abbr> num.</abbr><expan> Número</expan></choice>  56 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  57. <name type="nombre"><choice><orig> Ygnacio Ernands</orig><reg> Ignacio Hernández</reg></choice> Ignacio Hernández</name>:</p> 
+                <p> Familia 4. Albañil.<choice><abbr> num.</abbr><expan> Número</expan></choice>  58. <name type ="nombre"><orig> Felis</orig><reg> Félix</reg></name>: <name type="oficio">lotero</name>. <name type="oficio"><choice><orig>Escrivano</orig><reg>Escribano</reg></choice></name>.</p> 
+                  
+                <p>"Folio 154 recto"</p>  
+                    <p> Familia 8. Varones: 2.</p> 
+                    
+                    <p> Calle Tapada</p> 
+                   
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  59. <name type ="local"> Casa Marcelina <choice><orig> Martines</orig><reg> Martínez</reg></choice></name>: familia 9. Varones: 2.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 60 de la misma.<choice><abbr> num.</abbr><expan> Número</expan></choice>s 61, 62 y 63.<name type="local"> Tiendas y casa Josefa</name></p> 
+                <p> Páramo: familia 6. Varones: 2.<choice><abbr> num.</abbr><expan> Número</expan></choice> 64 cerrada.<choice><abbr> num.</abbr><expan> Número</expan></choice> 65. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local">Vicenta Céspedes</name>: familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  66. <name type="nombre"><choice><orig>Jose</orig><reg>José</reg></choice></name>Penaguas [sic]: familia</p> 
+                <p> 5. varones: 3. <name type ="oficio"><choice><orig>sapatero</orig><reg>Zapatero</reg></choice></name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  67. <name type ="local"> Casa <choice><orig>Maria Veles</orig><reg>María Vélez</reg></choice></name>: familia</p> 
+                <p> 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 68. <name type ="nombre"><choice><orig>Jose Flores</orig><reg>José Flores</reg></choice></name> y su mujer: sastre. <choice><abbr> num.</abbr><expan> Número</expan></choice>  69 cerrada.</p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 70 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>s 71, 72 y 73 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  74. <name type ="local"> Casa</name></p> 
+                <p> <name type="nombre">Miguel<choice><orig>Hernandes</orig><reg>Hernández</reg></choice></name>: familia 4. Varones: 2.<name type="oficio"><choice><orig>Vatioja</orig><reg>Batioja</reg></choice></name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  75</p> 
+                    <p> del mismo.</p> 
+                    
+                <p> <name type="calle"><choice><abbr>Manza 4a</abbr><expan>Manzana cuarta</expan></choice></name></p> 
+                    
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1.<name type ="nombre"><choice><orig>Concepcion</orig><reg>Concepción Recines[sic]</reg></choice></name>: familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice> 2. <name type ="nombre"><choice><orig>Jose</orig><reg>José</reg></choice></name></p> 
+                <p> <name><choice><orig>Dias</orig><reg>Díaz</reg></choice></name>: familia 3. Varones: 2. <name type ="oficio">Labrador</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  3.<name type ="nombre">Andrea Lato-</name></p> 
+                <p><name type ="nombre">rre</name>: familia 7. Varones: 3. <choice><abbr> num.</abbr><expan> Número</expan></choice> 4.<name type ="nombre"><choice><orig>Monica Fernades</orig><reg>Mónica Fernández</reg></choice></name>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 5. <name type = "local"> Casa Vicente Amaya</name>: <name type ="oficio">carpintero</name>. Familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 6.<name type="nombre"><choice><orig>luisa Días</orig><reg>Luisa Díaz</reg></choice>.</name><choice><abbr> num.</abbr><expan> Número</expan></choice>s 7 y 8 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  9. <name type ="local"> Casa Bárbara</name></p> 
+                <p> Rojas: familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  10.<name type ="local"> Casa Santiago<choice><orig>Garcia</orig><reg>García</reg></choice></name>:</p> 
+                <p> Familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  11. <name type ="local"> Casa Antonia Rojas</name>: familia </p> 
+                <p> 6. Un <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  12. Carmela Galindo: familia 6.</p> 
+                <p> Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  13. <name>Florentina <choice><orig> Caysedo</orig><reg> Caicedo</reg></choice></name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  14. <name type="nombre"><choice><orig>Ygnacio</orig><reg>Ignacio</reg></choice></name></p> 
+                <p> <name type ="nombre">Murcia</name>: familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>: <name type="oficio">aserrador</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  15. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local"><choice><orig> Jose</orig><reg> José</reg></choice> Cantera</name>: <name type ="oficio"> amanuense</name>. Familia 7. Varones: 3.</p> 
+                    
+                <p>"Folio 154 verso"</p>
+                    
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  16 y 17 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  18. <name type ="nombre"><choice><orig>Maria</orig><reg>María</reg></choice>Padilla</name>: familia 6. Nú-</p> 
+                <p> mero 19 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type="nombre"><choice><orig> Jose</orig><reg> José</reg></choice> Medina</name>: <name type="oficio">soldado <choice><orig> invalido</orig><reg> inválido</reg></choice></name>. Fami-</p> 
+                <p> lia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  21. <name type ="local"> Casa <choice><orig>Dr Dn Franco Yzquierdo</orig><reg>doctor don Francisco Izquierdo</reg></choice></name>: fami-</p> 
+                    <p> lia 7. <choice><abbr> num.</abbr><expan> Número</expan></choice>  22. <name type ="local"> Casa Vicente Aguirre</name>: sombrerero. Familia 5.</p> 
+                <p> Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23. <name type ="local"> Casa <choice><orig> Maria</orig><reg> María</reg></choice> Ayala</name>: familia 2. Un 
+                        <choice> 
+                            <orig> varn</orig> 
+                            <reg> varón</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  24 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  25 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  26 y 27. <name type="nombre"> Thomas Franquie [sic]</name>:</p> 
+                <p> Familia 5. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>: <name type="oficio"> platero</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  28, 29 y 30 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                    <p> 31. <name type ="local"> Casa</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  32 de un mismo dueño, <name type="nombre"><choice><orig>Ramn Peres</orig><reg>Ramón Pérez</reg></choice></name>: familia 7.</p> 
+                <p> Varones: 2. Producto anual 30 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  33. <name type ="local"> Casa Rita Mendoza</name>:</p> 
+                <p> familia 9. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  34. <name type="nombre"><choice><orig> Jose Torres</orig><reg> José Torres</reg></choice></name> y su mujer. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 35. <name type ="local"> Casa Clara <choice><orig>Ramires</orig><reg>Ramírez</reg></choice></name>: familia 11. 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>: 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  36.</p> 
+                <p> <name type ="local"> Casa Narcisa <choice><orig>Rodrigues</orig><reg>Rodríguez</reg></choice></name>: familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  37. Antonia Rojas.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  38. <name type ="local"> Casa Benedito Triana</name>: <name type="oficio">talabartero</name>. Familia 9. Va-</p> 
+                    <p> rones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  39. <name type ="local"> Casa Antonio Camacho</name>: familia 9. Varones: 2.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  40. <name type="nombre"><choice><orig> Barbara</orig><reg> Bárbara</reg></choice> Parra</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  41. <name type="nombre"> Catalina Parra</name>:</p> 
+                    <p> familia 4. Varones: 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  42 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  43. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local">Ana Tejada</name>: familia 8. Varones: 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  44. <name type ="nombre">Mariano</name></p> 
+                <p> <name type ="nombre"><choice><orig>Caceres</orig><reg>Cáceres</reg></choice></name>: familia 5. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  45. <name type ="local"> Casa Magdalena</name></p> 
+                <p> <name type ="nombre"><choice><orig>Sanches</orig><reg>Sánchez</reg></choice></name>: familia 6. Varones: 3. Producto anual 29 p[eso]s. <choice><abbr> num.</abbr><expan> Número</expan></choice>  46</p> 
+                <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  47. <name type ="local"> Casa Rita <choice><orig> Mendes</orig><reg> Méndez</reg></choice></name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p> <name type ="oficio">Amasandera</name>. Producto anual 40 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  48. <name type ="nombre"> Gertrudis <choice><orig> Telles</orig><reg> Téllez</reg></choice></name>:</p> 
+                <p> familia 4. Varones: 2. Producto anual 28 p[eso]s. <choice><abbr> num.</abbr><expan> Número</expan></choice>  49. <name type="nombre"><choice><orig> Pas</orig><reg> Paz</reg></choice> Maldonado</name>:</p> 
+                  
+                <p>"Folio 155 recto"</p>
+                 
+                    <p> familia 5. Varones: 2.</p> 
+            
+                <p> <name type="calle"><choice><orig>Calle real 4a de las Nieves. Manza 7a</orig><reg>Calle real cuarta de las Nieves. Manzana séptima</reg></choice></name></p> 
+            
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1. <name type ="local"> Casa <choice><orig> Franca</orig><reg> Francisca</reg></choice> Vanda [sic]</name>: Familia 5. <choice><abbr> num.</abbr><expan> Número</expan></choice>  2 y 3 cerradas.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  4. José Novoa: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>: <name type ="oficio"> carpintero</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 5 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  6 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 7 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  8. <name type ="nombre"><choice><orig> Ysabel</orig><reg> Isabel</reg></choice>Isabel</name></p> 
+                <p> <name type ="nombre"><choice><orig>Garzn</orig><reg>Garzón</reg></choice></name>: uno de familia. <choice><abbr> num.</abbr><expan> Número</expan></choice> 9. <name type ="local"> Casa Antonio <choice><orig>Martines</orig><reg>Martínez</reg></choice></name>: fa-</p> 
+                <p> milia 5. Varones: 3. <name type ="oficio"><choice><orig>Albanil</orig><reg>Albañil</reg></choice></name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  10. <name type ="local"> Casa Pedro<choice><orig>Tobar</orig><reg>Tovar</reg></choice></name>: <name type ="oficio"> hacendado</name>.</p> 
+                <p> Familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                    
+                <p><name type ="calle"> Calle de las Bejares[sic]</name></p> 
+                    
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  11 y 12 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  13. <name type ="local"> Casa Cayetano<choice><orig>Vazqz</orig><reg>Vásquez</reg></choice></name>: familia 16. Varones: 6.</p> 
+                <p><name type="oficio"> Hacendado</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 14 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  15. <name type ="local"> Casa <choice><orig> Tomas</orig><reg> Tomás</reg></choice> Torres</name>: <name type ="oficio">ma-</name></p> 
+                <p><name type ="oficio">tador de <choice><orig> reces</orig><reg> reses</reg></choice></name>. Familia 4. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 16 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 17. <name><choice><orig> Maria</orig><reg> María</reg></choice> Santana</name>: familia 5. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 18 cerrada.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  19. <name type="nombre"><choice><orig> Grego</orig><reg> Gregorio</reg></choice> Torres</name>: familia 6. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type ="local"> Casa</name>. La misma.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  21 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  22. <name type="nombre"> Guadalupe<choice><orig> Dias</orig><reg> Díaz</reg></choice></name>: familia 2.</p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  23 y 24 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  25 y 26 cerradas y 27. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 28. <name type ="local"> Casa Juan <choice><orig> Rodrigues</orig><reg> Rodríguez</reg></choice></name>: familia 3. <name type ="oficio"> Carpintero</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  29. <name type ="local"> Casa</name></p> 
+                <p><name type = "local">Antonio <choice><orig>Varboza</orig><reg>Barbosa</reg></choice></name>: familia 7. Varones: 1. <name type ="oficio"> Fuellero</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 30. <name type="nombre">An-</name></p> 
+                <p><name type="nombre">tonia <choice><orig> Samora</orig><reg> Zamora</reg></choice></name>: familia 4. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 31. <name type = "local"> Casa <choice><orig>Franco</orig><reg>Francisco</reg></choice></name></p> 
+                <p> <name type = "local">Patiño</name>: Familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  32.<name type ="nombre"> Pedro <choice><orig> Garcia</orig><reg> García</reg></choice></name>: familia</p> 
+                <p> 5. Varones: 3. <name type="oficio"> Zapatero</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  33. <name type ="local"> Casa</name>. La misma.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  34, 35 y 36 cerradas y 37, 38 y 39. <choice><abbr> num.</abbr><expan> Número</expan></choice> 40. <name type ="nombre"> Josefa</name></p> 
+                <p> <name type ="nombre"> Delgado</name>: familia 3. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 41 y 42 cerradas.</p> 
+                
+                <p>"Folio 155 verso"</p> 
+               
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 43. <name type ="local"> Casa<choice><orig> Ygnacio Rodrigues</orig><reg> Ignacio Rodríguez</reg></choice></name>: familia 10. Varones: 3. <name type="oficio">Ama-</name></p> 
+                <p><name type ="oficio">nuense de la aduana</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 34 y 35. <name type ="nombre"> María <choice><orig> Garzn</orig><reg> Garzón</reg></choice></name>: familia</p> 
+                <p> 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 36. <name type ="nombre"><choice><orig>Franca</orig><reg>Francisca</reg></choice> Vanda</name> [sic]: producto anual 52<abbr>ps</abbr><expan>p[eso]s</expan>.</p> 
+                   
+                <p><name type="calle">Calle corta.<choice><orig>Manza</orig><reg>Manzana 38</reg></choice></name> </p> 
+                    
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 1. <name type ="nombre">Javier <choice><orig> Suares</orig><reg> Suárez</reg></choice></name>: familia 3. <name type="oficio"><choice><orig> Albanl</orig><reg> Albañil</reg></choice></name>. Producto 40 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  2.</p> 
+                <p> <name type ="nombre"><choice><orig> Jose Lopes</orig><reg> José López</reg></choice></name>: familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 3. <name><choice><orig> Franco</orig><reg> Francisco</reg></choice></name> Escobar: <name type="oficio"> oficial de la<choice><orig>botanica</orig><reg>Botánica</reg></choice></name>. Familia</p> 
+                <p> 16. varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  4. <name type="nombre">Lucia <choice><orig> Gaytan</orig><reg> Gaitán</reg></choice></name>: número 5. <name type="nombre"><choice><orig>Joaqn</orig><reg>Joaquín</reg></choice>Soto</name> .</p> 
+                <p> Familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  6 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  7 y 8. <name type ="local"> Casa <choice><orig>Jose</orig><reg>José</reg></choice></name></p> 
+                <p> > <name type="nombre"><choice><orig> Lopes</orig><reg> López</reg></choice></name>: <name type ="oficio"> zapatero</name>. Familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  9. Antonia Caro: familia 1.</p> 
+                    
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  10. <name type="nombre">Josefa Lombana</name>: familia: 1 <name type ="oficio"> sirvienta</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  17</p> 
+                <p> casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  12. <name type ="nombre"><choice><orig> Jose</orig><reg> José</reg></choice>Botello y su esposa.</name><choice><abbr> num.</abbr><expan> Número</expan></choice>  13.</p> 
+                <p> <name type ="local"> Casa Pedro <choice><orig> Almansa</orig><reg> Almanza</reg></choice></name>: <name type ="oficio"><choice><orig>sapatero</orig><reg>zapatero</reg></choice></name>. Familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  14. Josefa Garrido. <choice><abbr> num.</abbr><expan> Número</expan></choice>  15. <name type ="local"> Casa <choice><orig> Jose Gutierres</orig><reg> José Gutiérrez</reg></choice></name>:</p> 
+                <p> Familia, su esposa. <name type ="oficio"> Escultor</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16. <name type ="local"> Casa <choice><orig> Maria</orig><reg> María</reg></choice></name></p> 
+                <p> <name> Cadena</name>: familia 6. Varones: 2. Uno <name type="oficio">platero</name> y es <name type="oficio">amasan-</name></p> 
+                <p> <name type="oficio">dera</name>. Producto anual 58 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 17 de la misma. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 18 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  19. <name type ="nombre"><choice><orig>Maria Barboza</orig><reg>María Barbosa</reg></choice></name>: familia</p> 
+                    <p> 7. varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type ="local"> Casa Catalina Garay</name>: familia</p> 
+                <p> 4. <name type ="oficio">Amasandera</name>. 40 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice> anuales de producto. <choice><abbr> num.</abbr><expan> Número</expan></choice> 21.</p> 
+                <p> <name type ="local"> Casa. Miquaela [sic] Vargas</name>:<name type ="oficio"> amasandera</name>. Familia 8. Varones: 2.</p> 
+                <p> Producto anual <choice><abbr> ps</abbr><expan> 48 p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 22 de la misma <name type="local"> Tienda</name>. </p> 
+                   
+                <p>"Folio 156 recto"</p> 
+                    
+                    <p> Producto anual 34 p[eso]s. <choice><abbr> num.</abbr><expan> Número</expan></choice> 23 y 24.<name type ="local"> Casa Lorenza</name></p> 
+                <p> <name> Vargas</name>: familia 4. <choice><abbr> num.</abbr><expan> Número</expan></choice>  25. <name><choice><orig>Jose Castañeda</orig><reg>José Castañeda</reg></choice></name>: familia</p> 
+                <p> 5. varones: 2. <name type ="oficio"><choice><orig> sapatero</orig><reg> Zapatero</reg></choice></name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  26 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  27. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local"><choice><orig> Ygnacia</orig><reg> Ignacia</reg></choice> Cabrera</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  28. <name>Josefa Silva</name>:</p> 
+                    <p> familia 3. Varones: 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  29 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  30 casa</p> 
+                <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  31. <name type ="local"> Casa <choice><orig> Franca</orig><reg> Francisca</reg></choice> Tamayo</name>: familia una. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  32. <name type ="local"> Casa <choice><orig> Jose</orig><reg> José</reg></choice> Moncada</name>: familia 2. <name type="oficio"> Tejedor</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 33 y 34. <name type ="local"> Casa Manuela <choice><orig>Garcia</orig><reg>García</reg></choice></name>: familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                  
+                <p> <name type ="calle"><choice><abbr> Manza 5a</abbr><expan> Manzana quinta</expan></choice></name>. Calle tapada</p> 
+                  
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1. <name type="nombre"> Juan de Dios Rosales</name>: familia 4. Varones: 1. Ca-</p> 
+                <p> ero. Producto anual 60 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  2. <name type ="local"> Casa Benito<choice><orig> Barragan</orig><reg> Barragán</reg></choice></name>:</p> 
+                <p> Familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice> : <name type="oficio"><choice><orig> ortelano</orig><reg> hortelano</reg></choice></name>. Producto anual 28 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 3.</p> 
+                <p> <name type ="local"> Casa Luis<choice><orig> Gonzales</orig><reg> González</reg></choice></name>: familia 5. Varones: 2. <name type="oficio"> Sombrerero</name>. Pro-</p> 
+                <p> ducto anual 25 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 4. <name type ="local"> Casa Juan Molano</name>: familia</p> 
+                <p> 5. varones: 1. Impresor. <choice><abbr> num.</abbr><expan> Número</expan></choice>  5. <name type="nombre"><choice><orig>Maria Sanches</orig><reg>María Sánchez</reg></choice></name>: 10. Va-</p> 
+                <p> rones: 6. <name type="oficio"> Lavandera</name>.</p> 
+             
+                <p> <name type ="calle">Calle de<choice><orig> Sta Barbara</orig><reg> Santa Bárbara</reg></choice></name></p> 
+             
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1. <name type ="local"> Casa <choice><orig> Ygnacio</orig><reg> Ignacio</reg></choice> Mancera</name>: número 7 del mismo. Pro-</p> 
+                <p> ducto anual 28<choice><abbr>ps</abbr><reg> p[eso]s</reg></choice>.<name type ="local"> Casa [manchado] de <choice><orig> Joaqa Vargs</orig><reg> Joaquina Vargas</reg></choice></name>: familia 2.</p> 
+                <p> <name type ="oficio"> Costurera</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  9. <name type ="nombre"><choice><orig> Ramon</orig><reg> Ramón</reg></choice> Moya</name>: <name type ="oficio"><choice><orig>sapatero</orig><reg>zapatero</reg></choice></name>. Familia 8.</p> 
+                <p> Varones: 1. Producto anual. 40<choice><orig> ps</orig><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 10. <name type ="nombre"><choice><orig>Franca Pachon</orig><reg>Francisca Pachón</reg></choice></name>:</p> 
+                <p> gana anualmente 24 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  11. <name type ="nombre"><choice><orig>Jose Garcia</orig><reg>José García</reg></choice></name>: familia 2.</p> 
+             
+                <p>"Folio 156 verso"</p>   
+             
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  12. <name type="nombre"><choice><orig> Jose</orig><reg> José </reg></choice> Rico</name>: <name type ="oficio"> sastre</name>. Familia 5. <choice><orig> mui</orig><reg> Muy</reg></choice>pobre.</p> 
+              
+                <p> <name type ="calle">Calle real <choice><abbr> 5a</abbr><expan> quinta</expan></choice> de las Nieves</name></p> 
+             
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  12. <name>Juan <choice><orig> Lopes</orig><reg> López</reg></choice></name>: <name type="oficio"> polvorero</name>. Familia 4. Varones: 1. Producto</p> 
+                <p> Anual 43 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  14. <name type ="nombre"> Santiago Tamayo</name>: familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><name type ="oficio"> Carpintero</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  15 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16. <name type ="local"> Casa <choice><orig> Jose Gonzales</orig><reg> José González</reg></choice></name>:</p> 
+                <p><name type ="oficio">pulpero</name>. Familia 7. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  Producto anual 50<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 17. <name type="nombre"><choice><orig> Lus</orig><reg> Luz</reg></choice></name></p> 
+                <p><name><choice><orig> Rodrigues</orig><reg> Rodríguez</reg></choice></name>: <name type="oficio"> costurera</name>. Familia 9. Varones: 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  18. <name type ="local"> Casa Manuela</name></p> 
+                <p> <name type="local"> Arguelles</name>: <name type ="oficio"> amasandera </name>. Familia 9. Producto anual 50 <choice><orig> ps</orig><reg> p[eso]s</reg></choice>.</p> 
+                 
+                <p> <name type="calle"><choice><orig> Manza 6a</orig><reg> Manzana sexta</reg></choice>, calle del Chorro</name></p> 
+                 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1. <name type="local">El <choice><orig>panteon de la yglesia</orig><reg>panteón de la iglesia</reg></choice></name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  2. <name type ="local"> Casa Josefa</name></p> 
+                <p> Rojas: <name type ="oficio"> costurera</name>. Familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  3. <name type ="local"> Casa Luis <choice><orig>Ber-</orig><reg>Ver-</reg></choice></name></p> 
+                <p> <name type="local"> gel</name>: <name type="oficio"><choice><orig>sapatero</orig><reg>zapatero</reg></choice></name>. Familia 6. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  Producto anual 46 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 4. <name type ="local"> Casa <choice><orig>Nicolas</orig><reg>Nicolás</reg></choice> Rojas</name>: familia 2. Varones: 1. <name type ="oficio">Sastre</name>. Pro-</p> 
+                <p> ducto anual 44 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  5. <name type ="local"> Casa Josefa <choice><orig> Gomes</orig><reg> Gómez</reg></choice></name>: familia 2. Un</p> 
+                <p>  <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  6 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  7 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  8. <name type="nombre">Fernanda</name></p> 
+                <p> <name><choice><orig> Rodrigues</orig><reg> Rodríguez</reg></choice></name>: familia 8. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <name type="oficio">Lavandera</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  9. <name type="nombre"> Pablo Al-</name></p> 
+                <p> <name>manza</name>: <name type="oficio"><orig>sapatero</orig><reg>zapatero</reg></name>. Familia 7. Varones: 3. Producto anual 48 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  10. <name type="nombre"> Juana Ortega</name>: <name type="oficio"> revendedora</name>. Un <name type ="oficio"><choice><orig> peon</orig><reg> peón</reg></choice></name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  17. <name type ="nombre"> Mar-</name></p> 
+                <p> <name> celino <choice><orig> Gutierres</orig><reg> Gutiérrez</reg></choice></name> y dos hermanos <name type ="oficio"><choice><orig>sapateros</orig><reg>zapateros</reg></choice></name>. Familia 2. Producto anual</p> 
+                <p> 80 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  12. <name type ="local"> Casa Mariano Bonilla</name>: <name type ="oficio"><choice><orig> carpinto</orig><reg> carpintero</reg></choice></name>. Familia 5. Varones:</p> 
+                <p> 1. <name type ="oficio"><choice><orig> sapatero</orig><reg> Zapatero</reg></choice></name>. Producto anual de ambos 100 <choice><abbr>ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 13. <name type="nombre"> Thomas</name></p> 
+                <p> <name>Leuro</name>: familia 2.</p> 
+                    
+                <p> <name type ="calle"><choice><orig>Calle de Sn Miguel. Manza 5a</orig><reg>Calle de San Miguel. Manzana quinta</reg></choice></name></p> 
+                 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  14 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  15. <name> Rita <choice><orig> Araves</orig><reg> Aravez</reg></choice> [sic]</name>: <name type ="oficio"> lavandera</name>. Producto</p> 
+              
+                <p>"Folio 157 recto"</p> 
+              
+                <p> anual 24 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 17 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 18</p> 
+                <p> casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 19 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type ="nombre"> Eustaquia Casal</name>:</p> 
+                <p> familia 3. Varones: 2. <name type ="oficio"> Peona, amasandera [sic]</name>. Producto anual 28 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 21. <name type="nombre"> Genoveva Valderrama </name>: soltera. Familia 3. Producto anual 23 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 22. <name type="nombre"><choice><orig> Franco Rodrigues</orig><reg> Francisco Rodríguez</reg></choice></name>: <name type ="oficio"><choice><orig> sapatero</orig><reg> zapatero</reg></choice></name>. Familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice> Producto anual 40 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+             
+                <p><name type="calle"><orig>Manza 6a. Calle de las Bejares</orig><reg> Manzana sexta. Calle de las vejares</reg></name></p> 
+            
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 23. <name type ="local"> Casa sola</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  24. <name type="nombre"> Agustina Cuervo</name>: <name type ="oficio"><choice><orig>tavquera</orig><reg>tabaquera</reg></choice></name>.</p> 
+                <p> Una <name type="oficio">criada de familia</name>. Producto anual 24 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  25. <name type ="nombre"> Trinidad Tamayo</name>:</p> 
+                <p> familia 5. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  26. <name type="nombre"> [Manchado] <choice><orig> Perez</orig><reg> Pérez</reg></choice></name>: viudo. Familia 8. Varones:</p> 
+                <p> 5. <name type="oficio"> Fundidor</name>. Producto anual 36 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  27 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  28.</p> 
+                <p> <name type ="local"> Casa Juan Duque</name>: <name type ="oficio"><choice><orig> sacristan</orig><reg> sacristán</reg></choice></name>. Familia una <name type="oficio"> criada</name>y un muchacho.</p> 
+                <p> <name type ="local"> Casa </name><choice><abbr> num.</abbr><expan> Número</expan></choice> 29. <name type="nombre"> Cayo<choice><orig> Angel</orig><reg> Ángel</reg></choice></name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 30. <name type="nombre"> Luis Olarte</name>:</p> 
+                <p> familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. <name type ="oficio"> Enfardelador</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  31. <name type="nombre"><choice><orig>Maria</orig><reg> María</reg></choice> Chavarro</name>:</p> 
+                <p> familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  32. <name type ="nombre"> Gonzalo <choice><orig> Avila</orig><reg> Ávila</reg></choice></name>: Familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  33. <name type="nombre"><choice><abbr> Franca</abbr><reg> Francisca</reg></choice> Castañeda</name>: familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  34.</p> 
+                <p><name type="nombre"><choice><orig> Maria Lopes</orig><reg> María López</reg></choice></name>: familia. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                    
+                <p><name type="calle"><orig> Manza 6a, calle real 6a de las Nieves</orig><reg> Manzana sexta, calle real sexta de las Nieves</reg></name></p> 
+                    
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  35. La misma <name type="nombre"><choice><abbr> Franca</abbr><expan> Francisca</expan></choice> Castañeda</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  36. <name type="nombre"> <choice><orig> Maria</orig><reg> María</reg></choice></name></p> 
+                <p> <name><choice><orig> Chaves</orig><reg> Chávez</reg></choice></name>: <name type="oficio"> tabaquera</name>. Producto anual 25 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  37. <name type="nombre"> Joaquín Sosa</name>: familia.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  38. <name type ="local"> Casa <choice><orig> Ynes</orig><reg> Inés</reg></choice> Lozano</name>: familia 6. <choice><abbr> num.</abbr><expan> Número</expan></choice>  39 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 40. <name type="nombre"><choice><orig>Jose</orig><reg> José</reg></choice> Morales</name>: familia 6. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. <name type="oficio"> Albañil</name>. Producto anual</p> 
+                <p> 50 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  41. <name type ="local"> Casa Manuel <choice><orig> Fernandes</orig><reg> Fernández</reg></choice></name>: <name type="oficio"> tullido</name>. Familia 5. <name type="oficio"> Platero</name>.</p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  42. <name type="oficio"> Revendedoras desterradas</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  43 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  44</p> 
+                <p> <name type ="nombre"> Estanislao <choice><orig>Asero</orig><reg> Acero</reg></choice></name>: familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<name type="oficio"> Pintor</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 45. <name type = "local"> Casa [d]el </name></p> 
+             
+                <p>"Folio 157 verso"</p>
+             
+                <p> <name type="nombre"><choice><abbr> dr dn</abbr><expan> doctor don</expan></choice> Santiago de Torres</name>: Familia 3 parientas. Renta lo que produce</p> 
+                <p> los diezmos <choice><orig> segn la regulacn</orig><reg> según la regulación</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  46. <name type ="nombre"> Paulo<choice><orig>Gutierres</orig><reg> Gutiérrez</reg></choice></name>: Familia: su esposa.</p> 
+                <p> <name type ="calle"><choice><orig> Calle real 7a de las nieves. Manza 3a</orig><reg> Calle real séptima de las Nieves. Manzana tercera</reg></choice></name></p> 
+            
+                    <p> <name type="calle">Calle del Hoyo</name></p> 
+
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1. <name type ="nombre"><choice><orig> Jose</orig><reg> José</reg></choice> Orejuela</name>: <name type="local"> pulpería</name>. Producto anual 50 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 2. <name type="nombre"><choice><orig> Encarnacion</orig><reg> Encarnación</reg></choice> Ballesteros</name>: <name type ="oficio"> lavandera</name>. Familia 1. Producto anual</p> 
+                <p> 25 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 3. <name type="nombre">Miguel <choice><orig> Ortegon</orig><reg> Ortegón</reg></choice></name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 4. <name type="nombre"> Mariana Soto-</name></p> 
+                <p><name>>mayor</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  5.<name type="nombre"> [manchado] Rico</name>: familia 2. Varones: 1.</p> 
+                <p> <name type="oficio"> Tabaquera</name>. Producto anual 24 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 6. <name type="nombre"><choice><orig> Franco Ramires</orig><reg> Francisco Ramírez</reg></choice></name>:<name type="oficio"> re-</name></p> 
+                <p><name>vendedor</name>. Familia 3. Producto anual 40<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  7. <name type="nombre"><choice><orig> Concepcion</orig><reg> Concepción</reg></choice></name></p> 
+                <p> <name> Rosas</name>: familia un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<name type="oficio"> Costurera</name>. Producto anual 44 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 8 y 9 casas solas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  10 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  11. <name type="nombre"> Antonio Soler</name>:</p> 
+                <p><name type="oficio"> pulpero</name>. Familia 1. Producto anual 54 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 12. <name type="nombre"><choice><orig> Concepcion</orig><reg> Concepción</reg></choice></name></p> 
+                <p> <name type ="nombre"> Ferro</name>: tabaquera. Familia: un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>  y su hermana. Producto anual</p> 
+                <p> 28 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 13.<name type="nombre"><choice><orig> Nicolas</orig><reg> Nicolás</reg></choice> Venegas</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  15 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16. <name type="nombre"> Rita Novoa</name>: <name type="oficio"> tabaquera</name>. Familia</p> 
+                <p> una. Producto anual 38<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  17. <name type="nombre"> Josefa<choice><orig>Rodrigues</orig><reg>Rodríguez</reg></choice></name>: familia</p> 
+                <p> 3 varones. <name type="oficio">Tabaquera</name>. Producto anual. 25<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  18. <name type ="local"> Casa Mariana</name></p> 
+                <p> <name> Guinea</name>: familia: una <name type="oficio"> criada</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 19 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type="nombre"> Rosalía</name></p> 
+                <p> <name> Bravo</name>: <name type="oficio"> jornalera</name>. Familia: un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  Producto anual 29 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  21 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  22 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23. <name type="nombre"> Juliana</name></p> 
+                <p> <name><choice><orig> Sanchez</orig><reg> Sánchez</reg></choice></name>: Familia 2. Varones: 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  24 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  25</p> 
+              
+                <p>"Folio 158 recto"</p>  
+                    <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  26 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  27 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 28 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  29. <name type="nombre"> Josefa <choice><orig> Sanches</orig><reg> Sánchez</reg></choice></name>: <name type="oficio"> costurera</name>. Familia 2. Un</p> 
+                <p>  <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  30 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  31 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  32 ce-</p> 
+                <p> rrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  33. <name type ="local"> Casa Magdalena Galindo</name>: familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  34. <name type ="local"> Casa <choice><orig> Franco Barragn</orig><reg> Francisco Barragán</reg></choice></name>: <name type="oficio"> pintor</name>. Familia 3. Varones: 2.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  35. <name type ="local"> Casa <choice><orig> Franco</orig><reg> Francisco</reg></choice> Villarraga</name>: <name type="oficio"> talabartero</name>. Familia 4. Va-</p> 
+                <p> rones: 2. Producto anual 64 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  36. <name type="nombre"><choice><orig> Dr Jose</orig><reg>Doctor José</reg></choice> Villalobos</name>:</p> 
+                <p> familia 5. Varones: 3. Sin renta. <choice><abbr> num.</abbr><expan> Número</expan></choice>  37. <name type ="local"> Casa <choice><orig> Thomas</orig><reg> Tomás</reg></choice> Miranda</name>:</p> 
+                <p> familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  38. <name type="nombre">Jacinta Riaño</name>: familia un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><name type="local"> Tienda </name>  producto anual 67 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 39. <name type="local"><choice><orig> Mieleria</orig><reg> Mielería</reg></choice></name> cerrada.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 40. <name type="nombre"> Antonio Villamaría</name>: <name type="oficio"><choice><orig> asendado</orig><reg> hacendado</reg></choice></name>. Familia: un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p> Producto anual 80<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 41 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 42. <name type="nombre"> Mi-</name></p> 
+                <p> <name>caela Morales</name>: <name type="oficio"> costurera</name>. Familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  43. <name type="nombre"> An-</name></p> 
+                <p> <name>tonia<choice><orig> Ernandes</orig><reg> Hernández</reg></choice></name>: familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>  <choice><abbr> num.</abbr><expan> Número</expan></choice>  44. <name type="nombre"> Juana</name></p> 
+                <p> <name> Olarte</name>: <name type="oficio"> planchadora</name>. Familia 3. Producto anual 28 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 45 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 46. <name type ="local"> Casa <choice><orig> Jose Rodrigues</orig><reg> José Rodríguez</reg></choice></name>: <name type="oficio">oficial real</name>.</p> 
+                <p> Suspenso su sueldo. Familia un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  47. <name type="nombre"><orig>Jose Reaño</orig><reg> José Riaño</reg></name>:</p> 
+                <p> albañil. Familia: su esposa. Producto anual 48 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                   
+                <p> 48. <name type="nombre"><choice><orig>Franco</orig><reg>Francisco</reg></choice> Urisa</name>:<name type ="oficio"> fundero[sic]</name>. Familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                    
+                <p> Producto anual 54 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 49 y 50 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  51. <name type="nombre"> Isidro</name></p> 
+                <p> <name><choice><orig>Cordova</orig><reg>Córdoba</reg></choice></name>:<name type="oficio"> barbero</name>. Familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  Producto anual 40 p[eso]s.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  52. <name><choice><orig> Jose Vargs Vateoja</orig><reg> José Vargas Batioja</reg></choice></name>: familia nada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 53. <name type="nombre"> Francisco</name></p> 
+             
+                <p>"Folio 158 verso"</p> 
+                
+                <p> <name type="nombre"> Moreno</name>: <name type="oficio"> maestro de escuela</name>. Producto anual 56 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 54.</p> 
+                <p> <name>Vicente <choice><orig>Dias</orig><reg>Díaz</reg></choice></name>: <name type="oficio"> tratante</name>. Familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  Producto anual 74 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  55. <name type="nombre"><choice><orig> Jose</orig><reg> José</reg></choice> Pose</name>: <name type="oficio"><choice><orig> asendado</orig><reg> hacendado</reg></choice></name>. Familia 9. Varones: 5. Producto</p> 
+                <p> anual. 350 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+             
+                <p> <name type="calle"> Calle real. Penúltima de las Nieves</name></p> 
+             
+                <p> <name type="calle"><choice><abbr>Manza</abbr><expan>Manzana</expan></choice></name> 19</p> 
+             
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 13. <name type="nombre"><choice><orig> Jose Dias</orig><expan> José Díaz</expan></choice></name>: Familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 14. Eulalia</p> 
+                    <p> Murillo: Familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  15. La misma. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16 casa cerrada.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  17. <name type="nombre"> Cecilia Castro</name>: familia 7. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  18 cerrada.</p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  19 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type ="local"> Casa Gertrudis Gaona</name>: familia 3.</p> 
+                <p> <name type="oficio">Amasandera</name>. Producto anual 47 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  21 de la misma. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 22. <name type ="local"> Casa Manuel Gaona</name>: familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23. <name type="nombre"> Teresa</name></p> 
+                <p> <name> Macías</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  24 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  25. <name type="nombre"> Teresa</name></p> 
+                <p> <name>Ricaurte</name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  26 de la misma. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 27 y 28 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  29 y 30. <name type="nombre"> Antonio <choice><orig> Ponton</orig><reg> Pontón</reg></choice></name>: familia</p> 
+                <p> 7. varones: 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  31 y 32 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  33 <name type="nombre"> Manuela Cruz</name>:</p> 
+                <p> familia 4. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  34. <name type ="local"> Casa Antonio <choice><orig> Gonzales</orig><reg> González</reg></choice></name>. Familia</p> 
+                <p> 5. <name type="oficio"> Sombrerero</name>. Producto anual 38 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  35 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 36</p> 
+                <p> casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 37 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  38. <name type="nombre"><choice><orig>Nicolas</orig><reg> Nicolás</reg></choice> Padilla</name>: familia</p> 
+                <p> 2. <name type="oficio"> Polvorero</name>. Producto anual 46<choice><abbr> ps</abbr><expan>p[eso]s</expan></choice> . <choice><abbr> num.</abbr><expan> Número</expan></choice>  39. <name type ="local"> Casa Pedro</name></p> 
+                <p><name> Vásquez</name>: familia 2. <name type="oficio"> Fundidor</name>. Producto anual. 60 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  40. <name type ="local"> Casa</name></p> 
+                <p> <name type="local">Manuel Plazas</name>: familia 9. Varones: 4. <name type="oficio"><orig> sapatero</orig><reg> Zapatero</reg></name>. Producto</p> 
+                <p> anual 54 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  41 del mismo. <choice><abbr> num.</abbr><expan> Número</expan></choice>  42. <name type="nombre"> Manuel</name></p> 
+                <p><name> Ramos</name>: familia 6. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<name type="oficio"> Platero</name>. Producto anual 64 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+             
+                <p>"Folio 159 recto"</p>   
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  5, 6, 7 y 8 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  9. <name type ="local"> Casa <choice><orig> Jose</orig><reg> José</reg></choice> Samudio</name>: Familia 4.</p> 
+                <p> Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<name type="oficio"> Albañil</name>. Producto anual 56 <choice><orig> ps</orig><reg> p[eso]s</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  11. <name type="nombre"> Apolinar Samu-</name></p> 
+                <p><name>dio</name>: <choice><abbr> num.</abbr><expan> Número</expan></choice>  12 del mismo. <choice><abbr> num.</abbr><expan> Número</expan></choice>  13, 14 y 15 cerradas.<choice><abbr> num.</abbr><expan> Número</expan></choice> 16. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local"><choice><orig>Nicolas</orig><reg>Nicolás</reg></choice>Baracaldo</name>: familia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  17. <name type="nombre"><choice><orig> Nicolaza</orig><reg> Nicolasa</reg></choice></name> Bastidas:</p> 
+                <p> familia 4. Varones: 3. <name type="oficio"> Tiplero</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  18. <name type="nombre"><choice><orig> Jose</orig><reg> José</reg></choice> Salamanca</name>.</p> 
+                 
+                <p><name type="calle"><choice><orig>Manza</orig><reg>Manzana</reg></choice> 33 calle del retiro</name></p> 
+                  
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1 y 2. <name type ="local"> Casa<choice><orig> Jose</orig><reg> José</reg></choice> Ramírez</name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. <name type="oficio"> Tintorero</name>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  3 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  4 y los <name type="local">solares que siguen son tejares perte-</name></p> 
+                <p><name>necientes a la catedral</name>: número 1 y 2. <name type ="local"> Casa Juana Galindo</name>. Familia 3.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  12. <name type ="local"> Casa Vicente <choice><orig> Dias</orig><reg> Díaz</reg></choice></name>. Familia 4. Varones: 2. <name type="oficio"><choice><orig>Mataganado</orig><reg>Mata ganado</reg></choice></name>.</p> 
+                <p> Producto anual 53 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan>Número</expan></choice>14. <name type ="local"> Casa<choice><orig> Nicolas Neyra</orig><reg> Nicolás Neira</reg></choice></name>: familia</p> 
+                <p> 5. un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. <name type="oficio">Albañil</name>. Producto anual 46<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+             
+                <p><name type="calle">Calle de<choice><abbr> Sn</abbr><expan> San</expan></choice> Lorenzo</name></p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  15. <name type="nombre"> Concepción Contreras</name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 16. <name type="nombre"><choice><orig> Maria</orig><reg> María</reg></choice> Triana</name>: familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  17.<name type="nombre"> Josefa Forero</name>:</p> 
+                <p> familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  18.<name type="nombre"><choice><orig> Franca</orig><reg> Francisca</reg></choice> Silva</name>: familia: un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  19.<name type="nombre"> Mariana Lombana</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 1.<name type="nombre"><choice><abbr> Grego</abbr><expan> Gregorio</expan></choice> Torres</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  2</p> 
+                <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  3. <name type ="local"> Casa<choice><orig> Jose</orig><reg>José</reg></choice> Bautista</name>. Familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><name type="oficio"> Sastre</name>. Producto anual 40 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  4 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 5. <name type ="local"> Casa<choice><orig> Ygnacio</orig><reg> Ignacio</reg></choice> Olarte</name>: Familia 5. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<name type="oficio"><choice><orig> sapatero</orig><reg> Zapatero</reg></choice></name>. Pro-</p> 
+                <p> ducto anual 48 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  6 y 7 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice> 8.<name type="nombre"> Petronila</name></p> 
+             
+                <p>"Folio 159 verso"</p> 
+                <p> <name> Rojas</name>. Familia 3. Varones: 2.</p> 
+              
+                    <p> Todos estos son arrabales del barrio de las Nieves que ni figura tienen de calles</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  6 y 7 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  8. <name type="nombre"><choice><orig> Jose</orig><reg> José</reg></choice> Mecha</name>: familia 4. <name type="oficio"><orig>sa-</orig><reg>za-</reg></name></p> 
+                <p><name>patero</name>. Producto anual 48 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 9 cerrada.<choice><abbr> num.</abbr><expan> Número</expan></choice>  10.<name type="nombre"> Rosa Gon-</name></p> 
+                <p><name><choice><orig>záles</orig><reg>zález</reg></choice></name>. Familia: un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  2 y 3 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  4. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local"><choice><orig> Maria</orig><reg> María</reg></choice> Baracaldo</name>. Familia 5. <choice><abbr> num.</abbr><expan> Número</expan></choice>  5 y 6.<name type="nombre"><choice><orig> Barbara Dias</orig><reg> Bárbara Díaz</reg></choice></name>:</p> 
+                    <p> familia 7. Varones: 2. Todo lo que sigue son tejares. Uno es de</p> 
+                <p><name type="nombre">Tirso <choice><orig> Gonzales</orig><reg> González</reg></choice></name> y los demás pertenecen al <name type="local"> colegio de Santo Tomás</name>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  3. <name type="nombre"><choice><orig> Maria</orig><reg> María</reg></choice></name> Cristancha: <name type="oficio"> fresadora inválida</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 4.</p> 
+                <p><name type="nombre"> Manuela<choice><orig> Arambulo</orig><reg> Arámbulo</reg></choice></name>: familia una. <choice><abbr> num.</abbr><expan> Número</expan></choice>  5. <name type="nombre"> Manuel Plaza</name>.</p> 
+                <p> Familia 7. Varones: 2. <name type="oficio"> Curtidor</name>. Producto anual 32 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  6.</p> 
+                <p><name type="nombre"> Antonio Mariño</name>: familia 5. Varones: 3. <name type="oficio"> Labrador</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 7.</p> 
+                <p><name type="nombre">Rafael<choice><orig> Rondon</orig><reg> Rondón</reg></choice></name>:familia una.<name type="oficio"> Talabartero</name>. Producto anual 25 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+                 
+                <p><name type="calle">Calle de la <choice><orig>ferreria</orig><reg>ferrería</reg></choice></name></p> 
+                <p> <name type="calle"> Calle de la forma vieja</name></p> 
+                 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  19.<name type="nombre"><choice><orig> Jasinta</orig><reg> Jacinta</reg></choice> Llanos</name>: <choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type="nombre">Josefa Llanos</name>. Fa-</p> 
+                <p> milia 8. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 21. <name type ="local"> Casa <choice><orig> Nicolas</orig><reg> Nicolás</reg></choice> Barreto</name>: familia</p> 
+                <p> 5. varones: 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  22. <name type ="local"> Casa <choice><orig> Encarnacn</orig><reg> Encarnación</reg></choice> Camacho</name>: familia 4.</p> 
+                <p> Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23 y <choice><abbr> num.</abbr><expan> Número</expan></choice>  1. <name type="nombre"> Nicolasa Camacho</name>: familia 4.</p> 
+                    <p> Varones: 3. Gana anualmente 28 p[eso]s. <choice><abbr> num.</abbr><expan> Número</expan></choice>  2. La misma. <choice><abbr> num.</abbr><expan> Número</expan></choice>  22</p> 
+                    <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23 y 24. <name type ="local"> Casa Lorenza Vargas</name>: familia 4.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  25. <name><choice><orig> Jose</orig><reg> José </reg></choice>Castañeda</name>: familia 5. Varones: 2. <name type="oficio"><choice><orig> sapatero</orig><reg> Zapatero</reg></choice></name>.</p> 
+              
+                <p>"Folio 160 recto"</p> 
+               
+                <p> Producto anual 46 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  26 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  27. <name type ="local"> Casa Ignacia</name></p> 
+                <p><name>Cabrera</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  28. <name>Josefa Silva</name>. Familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  29 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 30 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 31. <name type ="local"> Casa <choice><orig> Franca</orig><reg> Francisca</reg></choice></name></p> 
+                <p><name><choice><orig> Gomes</orig><reg> Gómez</reg></choice></name>: familia una. <choice><abbr> num.</abbr><expan> Número</expan></choice>  32. <name type ="local"> Casa <choice><orig> Jose</orig><reg> José</reg></choice> Moncada</name>: familia</p> 
+                <p> 2. <name type="oficio"> Tejedor</name>. Producto anual 50 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  33 y 34.<name type="nombre"> Manuela</name></p> 
+                <p><name><choice><orig> Garcia</orig><reg> García</reg></choice></name>: familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  3. <name type ="local"> Casa Manuela <choice><orig> Rodri-</orig><reg> Rodrí-</reg></choice></name></p> 
+                <p> <name type ="local"><choice><orig>gues</orig><reg>guez</reg></choice></name>. Familia 4. <choice><abbr> num.</abbr><expan> Número</expan></choice>  4. <name type ="local"> Casa Vicente Vega</name>: familia 4.</p> 
+                <p> Varones: 2. <name type="oficio"><choice><orig> sapatero</orig><reg> Zapatero</reg></choice></name>. Producto anual 58 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 5. <name type="nombre"> Ramón <choice><orig> Varreto</orig><reg> Barreto</reg></choice></name>:</p> 
+                <p> familia 5. <name type="oficio"> Carpintero</name>. Producto anual 68 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  6.<name type="nombre"><choice><orig> Jose</orig><reg> José</reg></choice></name></p> 
+                <p> <name><choice><orig> Villamarin</orig><reg>Villamarín</reg></choice></name>. Familia una. <name type="oficio">Platero</name>. Producto anual 47 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 7. <name><choice><orig> Nicolas</orig><reg> Nicolás</reg> </choice>Granados</name>: <name type="oficio"><choice><orig> sapatero</orig><reg> zapatero</reg></choice></name>. Familia 2. Varones. Producto anual</p> 
+                <p>50<choice><abbr>ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 8. <name type="nombre"> Celestina Lombana</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  9. <name type="nombre"> Nicolás</name></p> 
+                <p> <name><choice><orig> Gaon</orig><reg> Gaón</reg></choice></name>: familia 5. Varones: 2. <name type="oficio"><choice><orig> sapatero</orig><reg> Zapatero</reg></choice></name>. Producto anual</p> 
+                <p> 58 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  10. <name type="nombre"><choice><orig> Nicolas</orig><reg> Nicolás</reg></choice> Quintero</name>: <name type="oficio"> sastre</name>. Familia 6. Varones: 3.</p> 
+                <p> Producto anual 44 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  11. <name type ="local"> Casa Florencio Ortiz</name>.<name type="oficio"> Reo</name></p> 
+                <p><name type="oficio"> de lesa majestad</name>. Todos los que viven en esta casa son 14.</p> 
+                    <p> Varones: 3.</p> 
+                 
+                <p> <name type="calle">Calle del Amon [sic]</name></p> 
+                
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  12. <name type="nombre"> Rita Pico</name>: familia 6. Varones: 3. <choice><abbr> num.</abbr><expan> Número</expan></choice> 13 cerrada.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  14. <name type="nombre"> María Centena</name>: familia 3. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 15.</p> 
+                <p><name type="nombre"> Paula Lombana</name>: 5. Varones: 3. Gana <choice><abbr> anualmte</abbr><expan> anualmente</expan></choice> 28<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 16</p> 
+                    <p> y 17 cerradas.</p> 
+              
+                <p><name><choice><abbr>Manza 3a</abbr><expan>Manzana tercera</expan></choice></name></p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  6.<name type ="nombre"> Trinidad Bravo</name>: Familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  7.</p> 
+                <p> <name type="nombre"> Felipa <choice><orig> Ortis</orig><reg>Ortiz</reg></choice></name>: familia 3. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  8 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice> 9 y</p> 
+             
+                <p>"Folio 160 verso"</p> 
+            
+                <p> 10. <name type="nombre"> Ramón Trujillo</name>: familia 7. Varones: 1. <name type="oficio"><choice><orig> sapatero</orig><reg> Zapatero</reg></choice></name>. Producto</p> 
+                <p> anual 48 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  11. <name type ="local"> Casa Manuel<choice><orig> Garcia</orig><reg> García</reg></choice></name>:<name type="oficio"> Sastre</name>. Familia</p> 
+                <p> 3. un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. Producto anual 68 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  12. <name type="nombre"><choice><orig> Jose Ydordasa</orig><reg> José Idordasa</reg></choice></name>: fa-</p> 
+                <p> milia: su esposa. <name type="oficio"> Carpintero</name>. Producto anual 56 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  13. <name type="nombre"> Bernardo</name></p> 
+                <p><name>Rey</name>: familia 3. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>. <name type="oficio"> Carbonero</name>. Producto anual</p> 
+                <p> 24 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 14.<name type="nombre"><choice><orig> Geronimo Dias</orig><reg> Jerónimo Díaz</reg></choice></name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 15. <name type="nombre"> Antonia Molano</name>:</p> 
+                <p> familia 5. Varones todos. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16.<name type="nombre"><choice><orig> Ramon</orig><reg> Ramón</reg></choice> Bonilla</name>: familia</p> 
+                <p> 6. varones: 2.<name type="oficio">Sastre</name>. Producto anual 58 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+                <p><name type="calle"> Calle del<choice><orig> bolcan</orig><reg> volcán</reg></choice></name></p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  4. <name type="nombre"><choice><orig> Matias</orig><reg> Matías</reg></choice> Pulgar</name>: Familia 3.<name type="oficio"> Sastre</name>. Producto anual</p> 
+                <p> 48<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+                    
+                <p><name type="calle">Calle real última de las Nieves</name></p> 
+                     
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 7.<name type="nombre"> Alejandro <choice><abbr> Rodrigs</abbr><expan> Rodríguez</expan></choice></name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<name type="oficio"> Alpargatero</name>. Pro-</p> 
+                <p> ducto anual 28 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  8. <name type ="local"> Casa del monarca</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 9 y 10. <name type ="local"> Casa</name> </p> 
+                <p><name> Josefa Samudio</name>:<name type="oficio"> fundera</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  10 casa de la misma. <choice><abbr> num.</abbr><expan> Número</expan></choice>  11, 12</p> 
+                <p> y 13 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  14. <name type="nombre"><choice><orig> Jose Pachon</orig><reg> José Pachón</reg></choice></name>: familia 2.<name type="oficio"> Mantero</name>. Pro-</p> 
+                <p> ducto anual 52 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  15.<name type="nombre"> Manuela Mancera</name>: familia </p> 
+                <p> 4. varones: 2. <name type="oficio"> Albañil</name> el uno. Producto anual 43<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 16 y</p> 
+                    <p> 17 de la misma. <choice><abbr> num.</abbr><expan> Número</expan></choice>  18 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  19. <name type ="local"> Casa Magda-</name></p> 
+                <p> <name type ="local">lena Castillo</name>: familia 2.<name type="oficio"> Hilandera</name>. Producto anual 23<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 20 cerrada.<choice><abbr> num.</abbr><expan> Número</expan></choice>  21 y 22 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23.<name type="nombre"><choice><orig> Jose</orig><reg> José </reg></choice> Murillo</name>:</p> 
+                <p> familia 3. <name type="oficio"> Enfardelador</name>. Producto anual 43<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 24</p> 
+                    <p> y 25 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  7.</p> 
+                    
+                <p><name type="calle"> Calle de San Diego</name></p> 
+                    
+                <p><name type="nombre"><choice><orig> Juanquina Urive</orig><reg> Joaquina Uribe</reg></choice></name>: familia 8. Varones: 2.<name type="oficio"> Tabaquera</name>. Producto</p> 
+                    
+                <p>"Folio 161 recto"</p> 
+                    
+                <p> anual 24 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 2 y 3 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  4.<name type="nombre"> Pedro Sarmiento</name>:</p> 
+                <p><name type="oficio"> labrador</name>. Producto anual 36 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. Familia 3. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 5.</p> 
+                <p><name type="nombre"><choice><orig> Jose Alvares</orig><reg> José Álvarez</reg></choice></name>: familia 9. Varones: 4.<name type="oficio"> Cantero</name>. Producto anual 58 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+                <p> <name type="calle"> Calle de <choice><orig>Sn Luis Beltran</orig><reg>San Luis Beltrán</reg></choice></name></p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 1 y 2. <name type ="local"> Casa Antonio<choice><orig> Gutierres</orig><reg> Gutiérrez</reg></choice></name>: familia 5. Varones: 2.<name type="oficio">Tra-</name></p> 
+                <p><name>tante</name>. Producto anual 80 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  3. <name type="nombre"><choice><orig> Roza Gonzales</orig><reg> Rosa González</reg></choice></name>. Familia 2.</p> 
+                <p> Un   <choice> 
+                            <orig> varon</orig> 
+                    <reg> varón</reg></choice>.<name type="oficio"> Tabaquera</name>. Producto anual 24<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  4. <name type ="local"> Casa</name> </p> 
+                <p> <name type ="local"><choice><orig>Jose Suares</orig><reg> José Suárez</reg></choice></name>: familia 5. Varones: 1.<name type="oficio"> Pulpero</name>. Producto anual 70<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.</p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  5 del mismo. <choice><abbr> num.</abbr><expan> Número</expan></choice>  6. Manuel Sandoval: albañil. Familia:</p> 
+                <p> su esposa. Producto anual [manchado]<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 7.<name type="nombre">Gabriel<choice><orig>Sanches</orig><reg> Sánchez</reg></choice></name> y su hermana.</p> 
+                <p><name type="oficio"> Albañil</name>. Producto anual 140 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  8 y 9. <name type ="local"> Casa Petronila</name></p> 
+                <p><hi style="font-size:12pt"><name>Guerrero</name>: familia 3.<name type="oficio"> Hilandera</name>. Producto anual 34<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 10, 11 y 12</hi></p> 
+                <p> cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  13.<name type="nombre"> Nepomuceno Alca</name>:<name type="oficio"> sastre</name>. Familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  </p> 
+                <p> Producto anual 75 <choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>14.<name><choice><orig> Maria</orig><reg> María</reg></choice>Baracaldo</name>: <name type="oficio"> costurera</name>. Pro-</p> 
+                <p> ducto anual 50<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 15.<name type="nombre"><choice><orig> Maria</orig><reg> María</reg></choice>Joya</name>: familia una.<name type="oficio"> Hilandera</name>.</p> 
+                <p> Producto anual 24<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16. <name type ="local"> Casa Fernando Casalla</name>: familia</p> 
+                <p> 5. varones: 2. <name type="oficio"> Sombrerero</name>. Producto anual 45<choice><abbr> ps</abbr><expan> p[eso]s</expan></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  17.<name type="nombre"><choice><orig> Maria</orig><reg> María</reg></choice></name></p> 
+                <p><name> Guerra</name>: familia: su hermana.<name type="oficio"><choice><orig>Labanderas</orig><reg>Lavanderas</reg></choice></name>. Producto anual 48<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  18.<name type="nombre"><choice><orig> Jose Rodrigues</orig><reg> José Rodríguez</reg></choice></name>: familia 5 varones: 2. Producto</p> 
+                <p> anual 80<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  19, 20 y 21 cerradas. <choice><abbr> num.</abbr><expan> Número</expan></choice>  22. <name type ="local"> Casa<choice><orig> Jose</orig><reg> José</reg></choice></name></p> 
+                <p> <name type ="local"> Ayure</name>: familia 2. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<name type="oficio"> Curtidor</name>. Producto anual 90<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  23. <name type="nombre"> Vicente <choice><orig> Ernandes</orig><reg> Hernández</reg></choice></name>:<name type="oficio"> sastre</name>. Familia 3. Producto anual</p> 
+                <p> 100<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  24. <name type ="local"> Casa <choice><orig> Jose Bamonde</orig><reg> José Baamonde</reg></choice></name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice> :</p> 
+                <p><name type="oficio"> guarda</name>. Producto anual 12 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  25 y 26 cerradas. </p> 
+             
+                <p>"Folio 161 verso"</p> 
+                    
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  27.<name type="nombre"> Polo <choice><orig> Beltran</orig><reg> Beltrán</reg></choice></name>: familia 10. Varones: 4. <choice><abbr> num.</abbr><expan> Número</expan></choice> 28 casa</p> 
+                <p> cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  29.<name type="nombre"> Josefa <choice><orig>Gonzales</orig><reg> González</reg></choice></name>. Familia una. <name type="oficio"> Hilandera</name>. </p> 
+                <p> Producto anual 26 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 14. <name type="local"> Solar</name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  15.<name type="nombre"><choice><orig> Jose</orig><reg> José</reg></choice> Rojas</name>: familia 2. Un</p> 
+                <p>  <choice> 
+                            <orig> varon</orig> 
+                    <reg> varón</reg></choice>:<name type="oficio"><choice><orig> fresadero</orig><reg> fresador</reg></choice></name>. Producto anual 50 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 16 y 17 cerradas. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 18.<name type="nombre"> Vicente Layton</name>: familia 7. Un
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<name type="oficio"><choice><orig> sapatero</orig><reg> Zapatero</reg></choice></name>.</p> 
+                <p> Producto anual 64 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 19 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type ="local"> Casa <choice><orig> Maria</orig><reg> María</reg></choice></name></p> 
+                <p><name><choice><orig> Sapata</orig><reg> Zapata</reg></choice></name>: familia 4.<name type="oficio"> Costurera</name>. Producto anual 32 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                    <p> 21.<name type ="local"> Casa Josefa <choice><orig> Martines</orig><reg> Martínez</reg></choice></name>: familia 3.<name type="oficio"> Lavandera</name>. Pro-</p> 
+                <p> ducto anual 28<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  22 de la misma. <choice><abbr> num.</abbr><expan> Número</expan></choice>  1 cerrada. </p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  2 y 3. <name type="nombre"><choice><orig> Maria Alcantar</orig><reg> María Alcántara</reg></choice></name>: familia 4. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                    <p> 4 de la misma. <choice><abbr> num.</abbr><expan> Número</expan></choice>  5. <name type ="local"> Casa Salvador Ricaurte</name>: familia</p> 
+                <p> 7. varones: 3. Platero. Producto anual 100 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  6. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local">y solar de don<choice><orig>Franco Salamea</orig><reg> Francisco Zalamea</reg></choice></name>.<name type="oficio"> Contador de la casa de moneda</name>.</p> 
+           
+                <p><name type="calle">Calle de Nuestra<choice><orig>Sa de Aransasu, manza 2a</orig><reg>Señora de Aránzazu, manzana segunda</reg></choice></name></p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice> 1. <name type="nombre"><choice><orig> Jose Gutierrez</orig><reg> José Gutiérrez</reg></choice> Fatuo</name>: Familia 4. <choice><abbr> num.</abbr><expan> Número</expan></choice> 2. <name type ="local"> Casa Santiago</name></p> 
+                    <p><name> Umaña</name>: <name type="oficio"><choice><orig> asendado</orig><reg> hacendado</reg></choice></name>. Familia 4. Varones: 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  3 cerrada.</p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  4 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  5. <name type="nombre"> Josefa Quijano</name>: familia 1. <choice><abbr> num.</abbr><expan> Número</expan></choice> 6.</p> 
+                    <p> <name type ="local"> Casa Josefa<choice><orig> Bernaza</orig><reg>Vernaza</reg></choice></name>: familia 8. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 7.<name type ="local"> Casa</name></p> 
+                <p> <name type ="local">Juan Salgado</name>: familia 9. Varones: 3.<name type="oficio"><choice><orig> asendado</orig><reg> hacendado</reg></choice></name>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 8. <name type ="local"> Casa</name></p> 
+                    <p><name><choice><orig> dn Antonio Escallon</orig><reg> don Antonio Escallón</reg></choice></name>:<name type="oficio"> contador de las reales rentas</name>. Sin sueldo. </p> 
+                    <p> Familia: su <name type="oficio"> criado</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 9 y 10 cerradas y 11. <choice><abbr> num.</abbr><expan> Número</expan></choice>  12. <name type ="local"> Casa <choice><orig> Ygnacio</orig><reg> Ignacio</reg></choice></name></p> 
+                    <p> <name> Umaña</name>: <name type="oficio"><choice><orig> azendado</orig><reg> hacendado</reg></choice></name>. Familia 11. Varones: 5. <choice><abbr> num.</abbr><expan> Número</expan></choice>  13. <name type ="local"> Casa <choice><orig> Barbara</orig><reg>Bárbara</reg></choice></name></p> 
+                <p> <name> Ángel</name>: familia 9. Varones: 5. <choice><abbr> num.</abbr><expan> Número</expan></choice> 14.<name type="nombre"><orig> Joaqn</orig><reg> Joaquín</reg> Vargas</name>:<name type="oficio"> sastre</name>.</p> 
+                 
+                <p>"Folio 162 recto"</p>  
+                 
+                <p> Familia 3. Varones: 1. Producto anual 80 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  15 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 16. <name type ="local"> Casa Juan Venegas</name>: <name type="oficio"> inválido</name>. Familia 5. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice> 17.</p> 
+                    <p> <name type ="local"> Casa Rafael Bernal</name>: oficial de la aduana. Familia 6. Varones:</p> 
+                <p> ninguno. <choice><abbr> num.</abbr><expan> Número</expan></choice>  18. <name type="nombre"> Manuel Riaño</name>: sastre. Familia 2. Producto</p> 
+                <p> anual<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  19. <name type="nombre"> Cecilia Mesa</name>: familia una. Producto anual</p> 
+                    <p> de su <name type="local"><name type="local"> Tienda 
+                    </name>  28<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  20 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  21.</name> <name type="nombre"><choice><orig> Franco</orig></choice><reg> Francisco Salamanca</reg></name>:</p> 
+                    <p> enfermo. Familia 7. Varones: 5. <choice><abbr> num.</abbr><expan> Número</expan></choice> 22 casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23.</p> 
+                <p><name type="nombre"><choice><orig> Felis</orig><reg> Félix</reg></choice></name> Lamprea:<name type="oficio"> tratante</name>. Familia 3. Varones: 1. Producto anual</p> 
+                <p> 80 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 24. <name type ="local"> Casa Santiago Clavijo</name>:<name type="oficio"> tratante</name>. Familia 9. Varones:</p> 
+                <p> 4. producto anual 150 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.<choice><abbr> num.</abbr><expan> Número</expan></choice> 25.<name type="nombre"><choice><orig> Maria</orig><reg> María</reg></choice> Alcaya</name>: familia 6.</p> 
+                    <p> Varones: 4. <choice><abbr> num.</abbr><expan> Número</expan></choice>  26. <name type ="local"> Casa Miguel <choice><orig> Tobar</orig><reg> Tovar</reg></choice></name>: <name type="oficio"><choice><orig> asendado</orig><reg> hacendado</reg></choice></name>. Familia 5. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                    <p> 27. <name type ="local"> Casa Mariana <choice><orig> Asero</orig><reg> Acero</reg></choice></name>: familia 2. Varones: 1. <choice><abbr> num.</abbr><expan> Número</expan></choice> 28. <name type ="local"> Casa</name></p> 
+                <p> <name type ="local">Josefa Bautista</name>:<name type="oficio"> amasandera</name>. Familia 4. Producto anual 48 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  29. <name type="nombre">Josefa Clavijo</name>: <name type="oficio"> maestra de enseñar a leer</name>. Familia 2.</p> 
+                <p> Producto anual de su trabajo 24 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 30. <name type ="local"> Casa Pedro Arenas</name>:</p> 
+                <p><name type="oficio"> pulpero</name>. Familia 9. Varones: 5. Producto anual 40 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  31</p> 
+                    <p> casa cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  32. <name type="nombre"> Lucia Castro</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  33.<name type="nombre"> Ana Ballesteros</name>: </p> 
+                <p> familia una. <choice><abbr> num.</abbr><expan> Número</expan></choice>  34. <name type ="local"> Casa Manuela <orig> Cerresuela</orig><reg> serrezuela</reg></name>: familia</p> 
+                    <p> 4. Varones: 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  35. <name type ="local"> Casa Mariano Pino Fatuo</name>: Familia 2.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  36. <name type="nombre"><choice><orig> Jose</orig><reg> José</reg></choice> Alvarado</name>: <name type="oficio"><choice><orig> sombredero</orig><reg> sombrerero</reg></choice></name>. Familia 1. Producto anual 25 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  37.<name type="nombre"><choice><orig> Jose Farfan</orig><reg> José Farfán</reg></choice></name>:<name type="oficio"><choice><orig> sombredero</orig><reg> sombrerero</reg></choice></name>. Producto anual 24 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                    <p> 38. <name type ="local"> Casa Josefa Silva</name>: <name type="oficio"> costurera</name>. Familia 3. Varones: 1. Producto</p> 
+                <p> anual 45 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> s 39, 40, 41 y 42 cerradas.</p> 
+                    <p> Manzana 28. Calle del despeño</p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  1. <name type="nombre"> Anastasio Velasco</name>:<name type="oficio"><orig> asendado</orig><reg> hacendado</reg></name>. Familia 9. Varones: 5. <choice><abbr> num.</abbr><expan> Número</expan></choice>  2.</p> 
+                
+                <p>"Folio 162 verso"</p>  
+                
+                <p> <name type="nombre"> Fernando Vergara</name>: familia 5.<name type="oficio"> Tratante</name>. Producto anual 100 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  3. <name type="nombre"><choice><orig> Maria Rita Gusman</orig><reg> María Rita Guzmán</reg></choice></name>.<choice><abbr> num.</abbr><expan> Número</expan></choice>  4 y 5.<name type="nombre"><choice><orig> Jose Cavallero</orig><reg> José Caballero</reg></choice></name>:</p> 
+                <p> familia 3.<name type="oficio"> Pulpero</name>. Producto anual 90 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 6.<name type="nombre"> Antonia Acosta</name>:</p> 
+                <p> familia, su <choice><orig> ermana</orig><reg> hermana</reg></choice>.<name type="oficio"> Costureras</name>. Producto anual 25 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  7.<name type="nombre"> Juan de Dios Salgado</name>: familia. Un 
+                        <choice> 
+                            <orig> varon</orig> 
+                            <reg> varón</reg></choice>.  <choice><abbr> num.</abbr><expan> Número</expan></choice>  8 ce-</p> 
+                    <p> rrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  9.<name type="nombre"> Luis Vargas</name>: familia: su esposa.<name type="oficio"> Sastre.</name> Oficio </p> 
+                <p> anual 100<choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  10. <name type="nombre"> Josefa García</name>: familia 5. <choice><abbr> num.</abbr><expan> Número</expan></choice>  11. <name type="nombre"> Luis Gon-</name></p> 
+                <p><name>zalez</name>:<name type="oficio"> carpintero</name>. Familia: su esposa. Producto anual 86 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice></p> 
+                <p> 12.<name type="nombre"> Juana Robles</name>: Familia 3. varones: 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  13.<name type="nombre"><choice><orig>Jose Roso</orig><reg> José Rozo</reg></choice></name>:</p> 
+                <p> familia 3. Varones: 2. Producto anual 63 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  14.</p> 
+                <p><name type="nombre"> <choice><orig> Pantaleon Gusman</orig><reg> Pantaleón Guzmán</reg></choice></name>: familia 5. <name type="oficio"> Pintor</name>. Producto anual 34 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                    
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  15.<name type="nombre"> Dimas<choice><orig>Yrigi</orig><reg>Irigui</reg></choice></name>: familia una. <choice><abbr> num.</abbr><expan> Número</expan></choice>  16.<name type="nombre"> Josefa Mo-</name></p> 
+                    
+                <p><name>reno</name>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  17. <name type="nombre"><choice><orig> Ysidora Suares</orig><reg> Isidora Suárez</reg></choice></name>: familia 7. <choice><abbr> num.</abbr><expan> Número</expan></choice>  18.<name type="nombre"> Josefa</name></p> 
+                <p><name> Ramos</name>: familia una. <choice><abbr> num.</abbr><expan> Número</expan></choice>  19. <name type="nombre"> Cornelio <choice><orig> Rodrigues</orig><reg> Rodríguez</reg></choice></name>: familia</p> 
+                <p> 2.<choice><abbr> num.</abbr><expan> Número</expan></choice>  20. <name type="nombre">Mariano<choice><orig>Fernandes</orig><reg> Fernández</reg></choice></name>: familia una.<name type="oficio"> Platero</name>. Pro-</p> 
+                <p> ducto anual 86 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  27.<name type="nombre"> Mariana <choice><orig>Manzera</orig><reg> Mancera</reg></choice></name>: familia</p> 
+                <p> una. <choice><abbr> num.</abbr><expan> Número</expan></choice>  22 cerrada. <choice><abbr> num.</abbr><expan> Número</expan></choice>  23. <name type="nombre"> Pedro <choice><orig> cavallero</orig><reg> Caballero</reg></choice></name>: familia nada.</p> 
+                <p><name type="oficio"> Carpintero</name>. Producto anual 78 <choice><abbr>ps</abbr><expan>p[eso]s</expan></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice>  24. <name type="nombre"> Lorenza Be-</name></p> 
+                <p><name><choice><orig>rrio</orig><reg>rrío</reg></choice></name>: familia 2. Varones: 1. <choice><abbr> num.</abbr><expan> Número</expan></choice>  25. <name type ="nombre">Antonio Rocha</name>: fa-</p> 
+                <p> milia 3. <choice><abbr> num.</abbr><expan> Número</expan></choice>  26. <name type="nombre">Josefa Bautista</name>: <name type="local"> Tienda</name> 
+. Producto anual</p> 
+                <p> 58 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>. <choice><abbr> num.</abbr><expan> Número</expan></choice> 27.<name type="nombre"><choice><orig> Concepcion Calderon</orig><reg> Concepción Calderón</reg></choice></name>: producto anual 46 <choice><abbr> ps</abbr><reg> p[eso]s</reg></choice>.</p> 
+                <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  28. <name type="nombre"> Manuela Samudio</name>: familia una. <choice><abbr> num.</abbr><expan> Número</expan></choice>  29.<name> Petro-</name></p> 
+                <p><name>nila Arce</name>: familia 2. <choice><abbr> num.</abbr><expan> Número</expan></choice>  30. <name type="nombre"> Margarita <choice><orig> Bergara</orig><reg> Vergara</reg></choice></name>: familia</p> 
+                    <p> una. <choice><abbr> num.</abbr><expan> Número</expan></choice>  31. <name type="nombre"> Antonio Porras</name>. </p> 
+                    <p> <name type="calle"> Manzana sin número perteneciente a los arrabales de <choice><orig>Sn</orig><reg>San</reg></choice> Diego</name></p> 
+                    <p><choice><abbr> num.</abbr><expan> Número</expan></choice>  34.<name type="nombre"> Paula Romero</name>: familia una</p> 
+                
+        </body></text></TEI> 
